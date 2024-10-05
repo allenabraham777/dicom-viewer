@@ -1,0 +1,18 @@
+{
+  "name": "dicom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cornerstonejs/codec-openjph": "2.4.2",
+    "@cornerstonejs/dicom-image-loader": "1.44.3",
+    "dcmjs": "^0.34.1",
+    "dicom-parser": "^1.8.21"
+  }
+}
