@@ -1,7 +1,4 @@
-// packages/dicom-utils/index.js
-
 import * as dicomParser from "dicom-parser";
-import dcmjs from "dcmjs";
 
 /**
  * Parses a DICOM file and returns the dataset.

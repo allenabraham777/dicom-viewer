@@ -1,6 +1,3 @@
-// apps/viewer-app/src/App.jsx
-
-import React from "react";
 import DicomViewer from "./DicomViewer";
 
 function App() {

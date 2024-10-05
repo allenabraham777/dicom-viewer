@@ -1,6 +1,4 @@
-// apps/viewer-app/src/DicomViewer.jsx
-
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import { parseDicomFile } from "dicom";
 
 function DicomViewer() {
@@ -66,7 +64,6 @@ function DicomViewer() {
         height,
         pixelData,
         bitsAllocated,
-        bitsStored,
         pixelRepresentation,
         samplesPerPixel,
         photometricInterpretation,
