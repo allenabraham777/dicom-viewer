@@ -1,0 +1,18 @@
+{
+  "name": "dicom-viewer-react",
+  "version": "1.0.0",
+  "description": "DICOM Viewer Monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm --filter viewer dev",
+    "build": "pnpm --filter viewer build",
+    "preview": "pnpm --filter viewer preview"
+  },
+  "keywords": ["dicom", "viewer", "react", "cornerstone"],
+  "author": "",
+  "license": "ISC"
+}
